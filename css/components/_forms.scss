@@ -1,0 +1,27 @@
+@mixin component-forms {
+	.btn {
+		cursor: pointer;
+	}
+	.form-group {
+		position: relative;
+		margin: rem(40 0 0);
+		.control-label {
+			padding: 0;
+			line-height: 1;
+			position: absolute;
+			top: 10px;
+			left: 12px;
+			transition: all 0.3s ease;
+			&.filled {
+				top: -20px;
+			}
+		}
+	}
+	.form-control {
+		border-width: 0 0 1px 0;
+		&:focus {
+			box-shadow: none;
+			border-color: #000;
+		}
+	}
+}

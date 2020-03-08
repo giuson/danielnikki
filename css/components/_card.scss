@@ -1,0 +1,31 @@
+@mixin component-card {
+	.card-body {
+		a {
+			color: inherit;
+			&:hover {
+				color: $primary;
+			}
+		}
+	}
+	.card-image {
+		max-height: rem(300);
+		overflow: hidden;
+	}
+	.card-title {
+		font-family: $heading-second;
+		margin-bottom: 20px;
+		@include breakpoint(small-down) {
+			font-size: 40px;
+		}
+	}
+	.card-category,
+	.post-tags a {
+		font-family: $heading-second;
+		font-style: italic;
+		margin-right: 5px;
+	}
+
+	.card-bottom {
+		font-family: $heading-second;
+	}
+}
