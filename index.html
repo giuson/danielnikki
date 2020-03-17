@@ -40,14 +40,24 @@
 						<a class="nav-link active page-scroll" href="#top">Home</a>
 					</li>
 					<li class="nav-item">
+						<a class="nav-link page-scroll" href="#rsvp">RSVP</a>
+					</li>
+					<li class="nav-item">
 						<a class="nav-link page-scroll" href="#events">Events</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link page-scroll" href="#photos">Photos</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link page-scroll" href="#rsvp">RSVP</a>
+						<a class="nav-link page-scroll" href="#travel">Travel</a>
 					</li>
+					<li class="nav-item">
+						<a class="nav-link page-scroll" href="#gifts">Gifts</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link page-scroll" href="#faq">FAQ</a>
+					</li>
+					
 					<!--DROPDOWN-->
 					<!--
 					<li class="nav-item dropdown">
@@ -84,7 +94,7 @@
 		</div>
 	</div>
 	<!-- Section Love story -->
-	<section class="love-story section position-relative text-center">
+	<section id="rsvp" class="love-story section position-relative text-center">
 		<div class="d-none d-sm-block love-story__flower-parallax position-absolute parallax">
 			<img src="img/ls-flower-prlx.png" alt="flower">
 		</div>
@@ -93,20 +103,24 @@
 				<img src="img/story-flowers.png" alt="flowers">
 			</div>-->
 			<h1 class="title">Daniel & Nikki</h1>
-			<p class="m-auto">June 20, 2020<br><br> 7 pm<br><br>1347 Costa del Sol Dr. <br>Brownsville, TX 78520</p>
+
+			<p class="m-auto">RSVP here by <b>April 1st</b></p>
+			<div class="form-group">
+				<a onclick="window.open(this.href,'_blank');return false;" href="https://danielnikki.app.rsvpify.com/" class="btn btn-outline-dark rounded-0 px-3 py-1 font-weight-bold">RSVP</a>
+			</div>
 		</div>
 	</section>
 	<!-- Section Date -->
-	<section class="date-section section section--blue countdown text-center">
+	<section id="events" class="date-section section section--blue countdown text-center">
 		<div class="container">
 			<!--<div class="date-section__flowers m-auto">
 				<img src="img/date-flowers.png" alt="flowers">
 			</div>-->
 			<div class="date-section__block">
 				<div class="d-inline-block">
-					<h2 class="title--special">June 20th, 2020</h2>
+					<h2 class="title">June 20th, 2020</h2>
 					<h3 class="date-section__place">
-						1347 Costa del Sol Dr.<br>
+						6:30PM<br><br>1347 Costa del Sol Dr.<br>
 						Brownsville, TX 78520
 					</h3>
 				</div>
@@ -132,11 +146,11 @@
 		</div>
 	</section>
 	<!-- Section Events -->
-	<section id="events" class="events section text-center">
+	<!--<section id="events" class="events section text-center">
 		<div class="container">
 			<h1 class="title">Wedding events</h1>
 			<p class="subtitle mx-auto"><b>6:45 pm:</b> guests arrive<br><b>7:00 pm:</b> ceremony begins<br><b>7:45 pm:</b> dinner</p>
-			<div id="accordion">
+			<div id="accordion">-->
 				<!--<div class="accordion__header d-flex justify-content-center">
 					<button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 						Ceremony
@@ -146,18 +160,18 @@
 					</button>
 					
 				</div>-->
-				<div class="accordion__body">
+				<!--<div class="accordion__body">
 					<div id="collapseOne" class="collapse show" data-parent="#accordion">
 						<div class="row">
 							<h2 class="accordion__item-heading">events</h2>
-							<div class="col-md-6">
+							<div class="col-md-6">-->
 								<!--<img class="accordion__item-img" src="img/ceremny.png" alt="ceremony">-->
-							</div>
+							<!--</div>
 							<div class="col-md-6 text-left">
 								<h3 class="accordion__item-subheading">Address</h3>
-								<p class="d-flex align-items-center"><i class="fa fa-2x fa-map-marker align-middle pr-1"></i>1347 Costa del Sol Dr. Brownsville, TX 78520</p>
+								<p class="d-flex align-items-center"><i class="fa fa-2x fa-map-marker align-middle pr-1"></i>1347 Costa del Sol Dr. Brownsville, TX 78520</p>-->
 								<!--<p class="d-flex align-items-center"><i class="fa fa-2x fa-clock-o align-middle pr-1"></i>7pm, June 20, 2020 </p>-->
-								<p class="font-weight-bold">It’s summer in Texas, so please wear whatever you’ll be comfortable in!</p>
+								<!--<p class="font-weight-bold">It’s summer in Texas, so please wear whatever you’ll be comfortable in!</p>
 								<a onclick="window.open(this.href,'_blank');return false;" href="https://www.google.com/maps/place/1347+Costa+Del+Sol+Dr,+Brownsville,+TX+78520/@25.9457433,-97.5364379,17z/data=!3m1!4b1!4m5!3m4!1s0x866f91574a9edabd:0x2a288f0030d4d417!8m2!3d25.9457385!4d-97.5342439"><div class="btn btn-outline-dark rounded-0 px-2 py-1">View on map</div></a>
 							</div>
 						</div>
@@ -179,7 +193,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div>-->
 			<!--
 			<div class="events__info">
 				<div class="row text-left">
@@ -206,8 +220,8 @@
 				</div>
 			</div>
 			-->
-		</div>
-	</section>
+		<!--</div>
+	</section>-->
 	<!-- Section Gallery -->
 	<section id="photos" class="gallery section text-center">
 		
@@ -218,9 +232,9 @@
 					<div class="slider__item">
 						<img src="img/slider/gallery-1.jpg" alt="slider">
 					</div>
-					<div class="slider__item">
+					<!--<div class="slider__item">
 						<img src="img/slider/gallery-2.jpg" alt="slider">
-					</div>
+					</div>-->
 					<div class="slider__item">
 						<img src="img/slider/gallery-3.jpg" alt="slider">
 					</div>
@@ -236,9 +250,9 @@
 					<div class="slider__item">
 						<img src="img/slider/gallery-7.jpg" alt="slider">
 					</div>
-					<div class="slider__item">
+					<!--<div class="slider__item">
 						<img src="img/slider/gallery-8.jpg" alt="slider">
-					</div>
+					</div>-->
 				</div>
 				<div class="gallery__slider-num d-none d-lg-flex">
 					<div class="gallery__slider-current pr-1"></div>
@@ -249,7 +263,106 @@
 		</div>
 	</section>
 	<!-- Section Wishes -->
-	<section class="wishes section text-center">
+
+	<!-- Section Travel -->
+	<section id="travel" class="gifts section text-center">
+		<div class="container">
+			<h1 class="title">Travel</h1>
+			<div class="text-left">
+				
+					<b><font size=4>Airport Information</font></b></br><br>
+					<p><b>The closest airports to Brownsville are…</b><br>
+
+					Brownsville South Padre International Airport in Brownsville, TX (35 minute drive from the venue) and<br>
+					Valley International Airport in Harlingen, TX (25 minute drive from the venue) <br><br>
+
+					<b>There are other alternative airports to fly into…</b><br>
+					McAllen International Airport (1 hr drive from Brownsville)<br><br>
+
+					<b>You can also fly into airports in bigger cities in TX</b> (San Antonio, Austin, or Houston), which is the cheapest option, but you need to be prepared to make the drive down to Brownsville from there<br><br>
+
+					Any questions, please contact <b>Velia: (956)-227-1377</b>
+				</p>
+			</div>
+
+			<!--
+			<div class="wishes__slider">
+				<div class="slick slick-gifts mb-0 pb-0">
+					<div class="slider__item">
+						<img class="m-auto" src="img/gift1.png" alt="gift">
+					</div>
+					<div class="slider__item">
+						<img class="m-auto" src="img/gift2.png" alt="gift">
+					</div>
+					<div class="slider__item">
+						<img class="m-auto" src="img/gift3.png" alt="gift">
+					</div>
+					<div class="slider__item">
+						<img class="m-auto" src="img/gift4.png" alt="gift">
+					</div>
+					<div class="slider__item">
+						<img class="m-auto" src="img/gift1.png" alt="gift">
+					</div>
+					<div class="slider__item">
+						<img class="m-auto" src="img/gift2.png" alt="gift">
+					</div>
+					<div class="slider__item">
+						<img class="m-auto" src="img/gift3.png" alt="gift">
+					</div>
+					<div class="slider__item">
+						<img class="m-auto" src="img/gift4.png" alt="gift">
+					</div>
+				</div>
+			</div>
+		-->
+		</div>
+	</section>
+	<!-- Section Gift -->
+	<section id="gifts" class="gifts section section--blue text-center">
+		<div class="container">
+			<h1 class="title">Gifts</h1>
+			<p class="subtitle m-auto">
+				As we begin our lives together, we are also making other transitions: Daniel is graduating from college and we are moving back to Texas. Please consider supporting us in these transitions through a monetary gift:<br><br>
+
+				Cash and checks can be made out to Daniel Riojas or Selena Tully<br>
+
+				<u>Venmo</u>: <b><a href="https://venmo.com/nikkitully">@nikkitully</a> <a href="https://venmo.com/danielriojas">@danielriojas</a></b>
+			</p>
+
+			<!--
+			<div class="wishes__slider">
+				<div class="slick slick-gifts mb-0 pb-0">
+					<div class="slider__item">
+						<img class="m-auto" src="img/gift1.png" alt="gift">
+					</div>
+					<div class="slider__item">
+						<img class="m-auto" src="img/gift2.png" alt="gift">
+					</div>
+					<div class="slider__item">
+						<img class="m-auto" src="img/gift3.png" alt="gift">
+					</div>
+					<div class="slider__item">
+						<img class="m-auto" src="img/gift4.png" alt="gift">
+					</div>
+					<div class="slider__item">
+						<img class="m-auto" src="img/gift1.png" alt="gift">
+					</div>
+					<div class="slider__item">
+						<img class="m-auto" src="img/gift2.png" alt="gift">
+					</div>
+					<div class="slider__item">
+						<img class="m-auto" src="img/gift3.png" alt="gift">
+					</div>
+					<div class="slider__item">
+						<img class="m-auto" src="img/gift4.png" alt="gift">
+					</div>
+				</div>
+			</div>
+		-->
+		</div>
+	</section>
+
+		<section id="faq" class="wishes section--nude text-center">
 		<div class="container">
 			<h1 class="title">FAQ</h1>
 			<!--<p class="subtitle m-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>-->
@@ -302,47 +415,8 @@
 			</div>-->
 		</div>
 	</section>
-	<!-- Section Gift -->
-	<section class="gifts section section--blue text-center">
-		<div class="container">
-			<h1 class="title">Gifts</h1>
-			<p class="subtitle m-auto"><u>Venmo</u>: <b><a href="https://venmo.com/nikkitully">@nikkitully</a> <a href="https://venmo.com/danielriojas">@danielriojas</a></b><br>Cash/checks
-			</p>
-
-			<!--
-			<div class="wishes__slider">
-				<div class="slick slick-gifts mb-0 pb-0">
-					<div class="slider__item">
-						<img class="m-auto" src="img/gift1.png" alt="gift">
-					</div>
-					<div class="slider__item">
-						<img class="m-auto" src="img/gift2.png" alt="gift">
-					</div>
-					<div class="slider__item">
-						<img class="m-auto" src="img/gift3.png" alt="gift">
-					</div>
-					<div class="slider__item">
-						<img class="m-auto" src="img/gift4.png" alt="gift">
-					</div>
-					<div class="slider__item">
-						<img class="m-auto" src="img/gift1.png" alt="gift">
-					</div>
-					<div class="slider__item">
-						<img class="m-auto" src="img/gift2.png" alt="gift">
-					</div>
-					<div class="slider__item">
-						<img class="m-auto" src="img/gift3.png" alt="gift">
-					</div>
-					<div class="slider__item">
-						<img class="m-auto" src="img/gift4.png" alt="gift">
-					</div>
-				</div>
-			</div>
-		-->
-		</div>
-	</section>
 	<!-- RSVP -->
-	<section id="rsvp" class="rsvp section">
+	<!--<section id="rsvp" class="rsvp section">
 		<div class="container">
 			<div class="row">
 				<div class="d-none d-md-block col-sm-12 col-md-4">
@@ -352,7 +426,7 @@
 					<h2 class="title">RSVP</h2>
 					<h6 class="text-uppercase font-weight-bold mb-0">Will you attend?</h6>
 					<form id="rsvp-form" action="form.php" method="post">
-						<div class="row">
+						<div class="row">-->
 							<!--<div class="col-md-8 mb-3 m-md-0">
 								<div class="form-group">
 									<label class="control-label" for="inputName">Your name</label>
@@ -366,7 +440,7 @@
 							<div class="col-md-4 align-self-end">
 								<button type="submit" class="btn btn-outline-dark rounded-0 px-3 py-1 font-weight-bold">Send</button>
 							</div>-->
-							<div class="col-md-8 mb-3 m-md-0">
+							<!--<div class="col-md-8 mb-3 m-md-0">
 								<div class="form-group">
 									<a href="https://danielnikki.app.rsvpify.com/" class="btn btn-outline-dark rounded-0 px-3 py-1 font-weight-bold">RSVP</a>
 								</div>
@@ -380,13 +454,12 @@
 		</div>
 
 		
-	</section>
+	</section>-->
 	<!-- Footer -->
 	<footer class="section">
 		<div class="container text-white position-relative">
 			<div class="footer__title">
-				<div class="text-center">Save the date</div>
-				<div class="text-center">Daniel and Nikki</div>
+				<div class="text-center">Any questions, please contact Velia Tully</div>
 			</div>
 			
 			<div class="row pb-4">
@@ -397,7 +470,7 @@
 							<div class="pt-1 pb-1">
 								<i class="fa fa-phone fa-3x"></i>
 							</div>
-							<div class="pb-1">+123-456-7890</div>
+							<div class="pb-1">(956)-227-1377</div>
 						</div>
 						<div class="col-md-4 text-center border-right border-bottom px-0">
 							<div class="pt-1 pb-1">
@@ -409,7 +482,7 @@
 							<div class="pt-1 pb-1">
 								<i class="fa fa-envelope-o fa-3x"></i>
 							</div>
-							<div class="pb-1">email@contact.com</div>
+							<div class="pb-1">vtully@live.com</div>
 						</div>
 					</div>
 				</div>

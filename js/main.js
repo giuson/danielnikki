@@ -85,15 +85,15 @@ Table of Contents:
 				dots: false,
 				infinite: true,
 				speed: 300,
-				slidesToShow: 3,
+				slidesToShow: 2,
 				slidesToScroll: 1,
 				adaptiveHeight: false,
 				responsive: [
 					{
 						breakpoint: 1024,
 						settings: {
-							slidesToShow: 3,
-							slidesToScroll: 3,
+							slidesToShow: 2,
+							slidesToScroll: 1,
 							infinite: true,
 							adaptiveHeight: false,
 							dots: true
@@ -111,37 +111,7 @@ Table of Contents:
 				]
 			});
 		}
-		if ($('.slick-wishes')) {
-			$('.slick-wishes').slick({
-				dots: true,
-				arrows: false
-			});
-		}
-		if ($('.slick-gifts')) {
-			$('.slick-gifts').slick({
-				dots: true,
-				arrows: false,
-				slidesToShow: 5,
-				responsive: [
-					{
-						breakpoint: 1024,
-						settings: {
-							slidesToShow: 3,
-							slidesToScroll: 3,
-							infinite: true,
-							dots: true
-						}
-					},
-					{
-						breakpoint: 640,
-						settings: {
-							slidesToShow: 1,
-							slidesToScroll: 1,
-						}
-					}
-				]
-			});
-		}
+
 	}
 	var sliderNum = function() {
 		var $slides = $('.slick-gallery .slick-slide').not('.slick-cloned');
@@ -150,6 +120,7 @@ Table of Contents:
 		$('.gallery__slider-all').text($slides.length);
 	}
 	$('.slick').on('afterChange', sliderNum);
+
 
 	/* 7. Countdown
 	====================*/
@@ -217,7 +188,7 @@ Table of Contents:
 			var timeinterval = setInterval(updateClock, 1000);
 		}
 		// set your wedding date here
-		var deadline = 'June 20 2020 19:00:00 GMT-0600';
+		var deadline = 'June 20 2020 18:30:00 GMT-0600';
 		if (countdown){
 			initializeClock('timer', deadline);
 		}
