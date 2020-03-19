@@ -156,12 +156,16 @@ html, body {
 }
 
 body {
-	font-family: "Open Sans", sans-serif;
-	font-size: 14px;
+	font-family: 'BodoniFLF Regular';
+	font-size: 15px;
 	font-weight: 300;
 	line-height: 1.7;
 	color: #212529;
 	overflow-x: hidden;
+}
+
+b {
+	font-family: 'BodoniFLF Bold';
 }
 
 body.offcanvas {
@@ -698,7 +702,16 @@ input.search-field {
 		background: none;
 	}
 }
-
+#outPopUp {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+  text-align: center;
+}
 @media only screen and (min-width: 992px) {
 	.navbar .navbar-nav {
 		height: 72px;
